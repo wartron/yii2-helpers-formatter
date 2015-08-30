@@ -11,7 +11,7 @@ class Formatter extends BaseFormatter
         return strtoupper(bin2hex($value));
     }
 
-    public function asCent($tevalue, $format = null)
+    public function asCent($value, $format = null)
     {
         return $this->asCurrency($value/100,$format);
     }
